@@ -1,0 +1,61 @@
+img {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one two three four"
+    "five six seven eight";
+  justify-items: start;
+  align-items: center;
+  column-gap: 30px;
+  margin: 200px;
+}
+
+.one {
+  border: 1px solid grey;
+  grid-area: one;
+}
+
+.two {
+  border: 1px solid grey;
+  grid-area: two;
+}
+
+.three {
+  border: 1px solid grey;
+  grid-area: three;
+}
+
+.four {
+  border: 1px solid grey;
+  grid-area: four;
+}
+
+.five {
+  border: 1px solid grey;
+  grid-area: five;
+}
+
+.six {
+  border: 1px solid grey;
+  grid-area: six;
+}
+
+.seven {
+  border: 1px solid grey;
+  grid-area: seven;
+}
+
+.eight {
+  border: 1px solid grey;
+  grid-area: eight;
+}
